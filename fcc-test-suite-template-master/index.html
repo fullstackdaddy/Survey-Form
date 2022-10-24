@@ -10,28 +10,42 @@
     <h1 id="title">Survey Form</h1>
     <p id="description">This is a simple microverse project survey form</p>
     <form id="survey-form">
-      <label id="name-label">Name: </label>
-      <input required  placeholder="Enter Your Name" type="text" id="name">
-      <label id="email-label">Email: </label>
-      <input required placeholder="Enter your Email" type="email" id="email">
-      <label id="number-label">Number: </label>
-      <input required placeholder="Enter Your Age" min="0" max="100" type="number" id="number">
+      <label id="name-label">Name: </label><br>
+      <input required  placeholder="Enter Your Name" type="text" id="name"><br>
+      <label id="email-label">Email: </label><br>
+      <input required placeholder="Enter your Email" type="email" id="email"><br>
+      <label id="number-label">Age: </label><br>
+      <input required placeholder="Enter Your Age" min="0" max="100" type="number" id="number"><br>
 
+      <label>Select Your Gender</label><br>
       <select id="dropdown">
         <option value="" disabled selected hidden >Select</option>
         <option>Male</option>
         <option>Female</option>
-      </select>
+      </select><br><br>
 
-  
+      <label>Are You A Good Person?</label><br>
+      
       <input value="Good" name="anything"  type="radio" />
+      <label>yes</label>
+      
       <input value="Good" name="anything"  type="radio" />
+      <label>no</label><br><br>
 
-      <input value="1" type="checkbox"/>
-      <input value="2" type="checkbox"/>
-      <input value="3" type="checkbox"/>
+      <label>How Did You Hear About Us?</label><br>
+      
+      <input value="google" type="checkbox"/>
+      <label>Google</label>
+     
+      <input value="linked-in" type="checkbox"/>
+      <label>Linked-in</label>
+      
+      <input value="twitter" type="checkbox"/>
+      <label>Twitter</label><br><br>
 
-      <textarea name="textarea" rows="5" cols="10" >Message</textarea>
+      <label>Leave Us A Message</label><br>
+      <textarea name="textarea" rows="5" cols="10" >Message</textarea><br>
+
 
       <button id="submit" type="submit">Submit</button>
 

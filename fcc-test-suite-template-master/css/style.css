@@ -1,0 +1,33 @@
+body{
+  background-color: ivory;
+  font-family: cursive;
+}
+
+h1{
+  margin-left: 40%;
+}
+
+p{
+  margin-left: 35%;
+}
+
+form{
+  margin-left: 35%;
+  width: 40vw;
+}
+
+#name, #email, #number{
+  width: 20vw;
+  height: 3vh;
+  margin-bottom: 10px;
+}
+
+textarea{
+  width: 25vw;
+}
+button{
+  color: white;
+  background-color: black;
+  height: 40px;
+  width: 25vw;
+}
