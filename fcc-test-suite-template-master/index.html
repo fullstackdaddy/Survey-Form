@@ -11,11 +11,11 @@
     <p id="description">This is a simple microverse project survey form</p>
     <form id="survey-form">
       <label id="name-label">Name: </label>
-      <input placeholder="Enter Your Name" type="text" id="name">
+      <input required  placeholder="Enter Your Name" type="text" id="name">
       <label id="email-label">Email: </label>
-      <input placeholder="Enter your Email" type="email" id="email">
+      <input required placeholder="Enter your Email" type="email" id="email">
       <label id="number-label">Number: </label>
-      <input placeholder="Enter Your Age" min="0" max="100" type="number" id="number">
+      <input required placeholder="Enter Your Age" min="0" max="100" type="number" id="number">
 
       <select id="dropdown">
         <option value="" disabled selected hidden >Select</option>
@@ -24,8 +24,8 @@
       </select>
 
   
-      <input name="anything"  type="radio" />
-      <input name="anything"  type="radio" />
+      <input value="Good" name="anything"  type="radio" />
+      <input value="Good" name="anything"  type="radio" />
 
       <input value="1" type="checkbox"/>
       <input value="2" type="checkbox"/>
@@ -33,7 +33,7 @@
 
       <textarea name="textarea" rows="5" cols="10" >Message</textarea>
 
-      <button type="submit">Submit</button>
+      <button id="submit" type="submit">Submit</button>
 
 
     </form>
